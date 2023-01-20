@@ -23,9 +23,7 @@ public class ArrayListStack
 
     public int pop() // pobiera element ze szczytu stosu
     {
-        int topElem = intStack.get(intStack.size()-1); //Pobiera ostatni element tablicy dynamicznej
-        intStack.remove(intStack.size()-1); //usuwa ostatni element
-        return topElem; //Zwraca ostatni element
+         return intStack.remove(intStack.size()-1);
     }
 
     public int peek()  // podgląda wartość na szczycie stosu
