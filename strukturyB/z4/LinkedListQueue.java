@@ -22,9 +22,7 @@ public class LinkedListQueue
 
     public int remove()         // usuwa element z początku kolejki
     {
-        int firstElem = intQueue.get(0).intValue();
-        intQueue.removeFirst();
-        return firstElem;
+        return intQueue.remove(0);
     }
 
     public int peek()      // podgląda element na początku kolejki
