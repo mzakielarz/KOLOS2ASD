@@ -19,7 +19,7 @@ public class LinkedListList {
 
     public Double getFirst(){return dlist.getFirst();}
 
-    public double getLast(){return dlist.getLast();}
+    public Double getLast(){return dlist.getLast();}
 
     public void print(){
         for (int i = 0; i < dlist.size(); i++) {
