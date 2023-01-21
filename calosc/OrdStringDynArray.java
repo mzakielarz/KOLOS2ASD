@@ -29,7 +29,7 @@ public class OrdStringDynArray {
         if(index<0 || nElems==0 || index>=nElems){
             return false;
         }
-        for (int i = 0; i < nElems-1; i++) {
+        for (int i = index; i < nElems-1; i++) {
             table[i] = table[i+1];
         }
         nElems--;
